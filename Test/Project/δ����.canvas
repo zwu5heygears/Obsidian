@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"type":"text","text":"ultralbus","id":"a14bf5b99f6a91a2","x":84,"y":-579,"width":161,"height":60},
+		{"type":"text","text":"ultralib","id":"cfa5c961d457b05b","x":645,"y":-579,"width":170,"height":58},
+		{"type":"text","text":"dispatcher.h\n\n","id":"e7753c4969d2daa4","x":-206,"y":520,"width":250,"height":60},
+		{"type":"text","text":"global.h\n导出dll和lib","id":"6b2eb9ae8b11c7d2","x":-815,"y":-208,"width":233,"height":95},
+		{"type":"text","text":"logger.h\n封装QLoggingCategory，日志管理","id":"052e39d5982ba41e","x":-515,"y":-219,"width":235,"height":117},
+		{"type":"text","text":"singleton.h\n实现Signleton类\n有关于共享内存处理的类\n","id":"1d8474c96b658cf7","x":44,"y":-264,"width":260,"height":177},
+		{"type":"text","text":"addres.h\nQString别名Address","id":"c101fd13ffe4ca4e","x":-206,"y":-190,"width":250,"height":60},
+		{"type":"text","text":"threadssingleton.h\n实现一个线程安全的单例类","id":"fd54d94409e9044a","x":365,"y":-208,"width":280,"height":121},
+		{"type":"text","text":"message.h\n定义message结构（uuid, from, to, topic, data, timestamp)\n定义句柄（函数指针）:\nNotifyHandler(void)InvokeHandler(QVariant)\n声明Message为Qvariant\n","id":"99131330f01f9f4d","x":-833,"y":80,"width":251,"height":293},
+		{"type":"text","text":"","id":"6e0a26a5fc92c5ca","x":-166,"y":167,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"60fbca2d3c82cee4","fromNode":"a14bf5b99f6a91a2","fromSide":"bottom","toNode":"6b2eb9ae8b11c7d2","toSide":"top"},
+		{"id":"b4ed2b76cc476817","fromNode":"a14bf5b99f6a91a2","fromSide":"bottom","toNode":"052e39d5982ba41e","toSide":"top"},
+		{"id":"42775351334fbdc7","fromNode":"a14bf5b99f6a91a2","fromSide":"bottom","toNode":"c101fd13ffe4ca4e","toSide":"top"},
+		{"id":"c456606bfab78031","fromNode":"a14bf5b99f6a91a2","fromSide":"bottom","toNode":"1d8474c96b658cf7","toSide":"top"},
+		{"id":"9e913bc796aa3e76","fromNode":"a14bf5b99f6a91a2","fromSide":"bottom","toNode":"fd54d94409e9044a","toSide":"top"},
+		{"id":"b01014eb74ac6032","fromNode":"99131330f01f9f4d","fromSide":"bottom","toNode":"e7753c4969d2daa4","toSide":"top"},
+		{"id":"86e88d2a8581049e","fromNode":"c101fd13ffe4ca4e","fromSide":"bottom","toNode":"99131330f01f9f4d","toSide":"top"}
+	]
+}

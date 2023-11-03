@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"text","text":"自动校准","id":"c2c93226ca39bd61","x":55,"y":-240,"width":155,"height":50},
+		{"type":"text","text":"校准环境","id":"db7227212385e4fb","x":55,"y":70,"width":155,"height":50},
+		{"type":"text","text":"检测光度计","id":"dcf6af2dc8a34784","x":55,"y":-140,"width":155,"height":50},
+		{"type":"text","text":"PID计算电流","id":"1d67d5722dab091a","x":55,"y":-40,"width":155,"height":50},
+		{"type":"text","text":"获取光强","id":"2e35e585bd740893","x":55,"y":140,"width":155,"height":50},
+		{"type":"text","text":"退出","id":"ceb9b3b9cf3a859b","x":55,"y":380,"width":155,"height":50},
+		{"type":"text","text":"粗调MASK","id":"bc2d41bce7e6f897","x":55,"y":220,"width":155,"height":50},
+		{"type":"text","text":"精调MASK","id":"d1d4aedb1bfc4650","x":55,"y":300,"width":155,"height":50},
+		{"type":"file","file":"Project/LinearLaserScanReconstruction.md","id":"1721d4debcaa04e7","x":320,"y":-370,"width":720,"height":640},
+		{"id":"437188dae3153c31","x":300,"y":300,"width":400,"height":400,"type":"file","file":"Program/CUDA.md"}
+	],
+	"edges":[]
+}

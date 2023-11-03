@@ -1,0 +1,21 @@
+{
+  "readableLineLength": false,
+  "promptDelete": false,
+  "focusNewTab": true,
+  "livePreview": true,
+  "showFrontmatter": true,
+  "foldHeading": true,
+  "showLineNumber": false,
+  "foldIndent": true,
+  "vimMode": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false,
+  "attachmentFolderPath": "Other"
+}

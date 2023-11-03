@@ -1,0 +1,12 @@
+{
+  "accentColor": "#8b6cef",
+  "cssTheme": "Minimal",
+  "textFontFamily": "JetBrains Mono NL,思源宋体 CN",
+  "baseFontSize": 17,
+  "theme": "obsidian",
+  "monospaceFontFamily": "JetBrains Mono,思源宋体 CN",
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "translucency": false,
+  "interfaceFontFamily": "JetBrains Mono"
+}

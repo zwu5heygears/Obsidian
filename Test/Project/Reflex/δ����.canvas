@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"607569fcbbbb352a","type":"text","text":"ControlNode\n\tAddSubscription()","x":-40,"y":80,"width":268,"height":73},
+		{"id":"25b219d02b4f1751","type":"text","text":"controlNode\nisAvialbe","x":-22,"y":260,"width":250,"height":60},
+		{"id":"18a290f423db9059","type":"text","text":"emit cameraStatusSig","x":-22,"y":380,"width":250,"height":60},
+		{"id":"51759c08ffd72d08","type":"text","text":"Camer::grap()\nPublish()","x":-438,"y":83,"width":250,"height":60},
+		{"id":"7869add094096c23","type":"text","text":"","x":-438,"y":260,"width":250,"height":60},
+		{"id":"b80fabc4029fc039","type":"text","text":"conStrolNode --> new Controller --> controller\nconnect()","x":353,"y":60,"width":547,"height":137},
+		{"id":"8e45792a980d8086","type":"text","text":"Controller\nonCameraStatus()","x":377,"y":320,"width":250,"height":60},
+		{"id":"b43d8c920a268338","type":"text","text":"ui-->label","x":364,"y":433,"width":250,"height":60},
+		{"id":"8ddf180dd1ff2f4a","type":"text","text":"","x":-443,"y":801,"width":250,"height":60},
+		{"id":"0531f43c5cd0d096","type":"text","text":"ControlNode ::Run()\nInvoke（）","x":-438,"y":660,"width":250,"height":60},
+		{"id":"22640aa3d9b6f995","type":"text","text":"SetupManager::Init()\nAddInvoketion()","x":-62,"y":641,"width":290,"height":79},
+		{"id":"1223b114056bc6ee","type":"text","text":"SetupManager\nReadConfig()","x":-46,"y":831,"width":250,"height":60},
+		{"id":"09dc8a3347986575","type":"text","text":"ConfigHerper::ReadJson()","x":-78,"y":1120,"width":306,"height":62},
+		{"id":"2a73247ce4e42dff","type":"text","text":"Setup::ReadConfig()","x":-50,"y":1000,"width":258,"height":50},
+		{"id":"039498df54928f47","x":-408,"y":1771,"width":273,"height":149,"type":"text","text":"Pho\n只负责光度计识别、连接、断开、写入KB、读取数据解析、返回光度计值"},
+		{"id":"0a4af23ea31a9adf","x":-110,"y":1771,"width":190,"height":149,"type":"text","text":"Projector\n负责光机电流设置、光机开启、屏幕投图、\n"},
+		{"id":"8107576bae8cadea","x":100,"y":1771,"width":186,"height":149,"type":"text","text":"GUI\n界面控制\n"},
+		{"id":"99391289c28c7710","x":320,"y":1773,"width":200,"height":147,"type":"text","text":"calib\n读取json获取光强数据，拟合KB并执行写入"},
+		{"id":"82dd922b41ec65ba","x":5,"y":1600,"width":150,"height":60,"type":"text","text":"PhoCalib"},
+		{"id":"38a17722ae042726","x":580,"y":1773,"width":220,"height":147,"type":"text","text":"sys\n创建SSh连接，负责上传middle到文件中，启动并关闭前后端"}
+	],
+	"edges":[
+		{"id":"e2e5b6496957f604","fromNode":"607569fcbbbb352a","fromSide":"right","toNode":"25b219d02b4f1751","toSide":"left","label":"Topics::CamIsAvilable"},
+		{"id":"092614936faf0181","fromNode":"25b219d02b4f1751","fromSide":"right","toNode":"18a290f423db9059","toSide":"left"},
+		{"id":"9b0686939e9f06e3","fromNode":"51759c08ffd72d08","fromSide":"right","toNode":"7869add094096c23","toSide":"left","label":"Topics::CamIsAvilable\nconnStatus"},
+		{"id":"a710fc90df096184","fromNode":"b80fabc4029fc039","fromSide":"right","toNode":"8e45792a980d8086","toSide":"left","label":"cameraStatusSig"},
+		{"id":"ec9c2301cc7e90b2","fromNode":"8e45792a980d8086","fromSide":"right","toNode":"b43d8c920a268338","toSide":"left"},
+		{"id":"1395bf1e3eee75ad","fromNode":"0531f43c5cd0d096","fromSide":"right","toNode":"8ddf180dd1ff2f4a","toSide":"left","label":"Topics::ReadConfig"},
+		{"id":"87ea6e2fa9938179","fromNode":"22640aa3d9b6f995","fromSide":"right","toNode":"1223b114056bc6ee","toSide":"left","label":"Topics::ReadConfig"},
+		{"id":"44392c4a44a9a057","fromNode":"1223b114056bc6ee","fromSide":"right","toNode":"2a73247ce4e42dff","toSide":"left"},
+		{"id":"03205c1d5ef8d2e3","fromNode":"2a73247ce4e42dff","fromSide":"right","toNode":"09dc8a3347986575","toSide":"left"},
+		{"id":"745ff86be9a8eacc","fromNode":"82dd922b41ec65ba","fromSide":"bottom","toNode":"039498df54928f47","toSide":"top"},
+		{"id":"87e256fe76ad9ae2","fromNode":"82dd922b41ec65ba","fromSide":"bottom","toNode":"0a4af23ea31a9adf","toSide":"top"},
+		{"id":"825c73b32a6f7cb2","fromNode":"82dd922b41ec65ba","fromSide":"bottom","toNode":"8107576bae8cadea","toSide":"top"},
+		{"id":"b1f9393c40b42bb6","fromNode":"82dd922b41ec65ba","fromSide":"bottom","toNode":"99391289c28c7710","toSide":"top"},
+		{"id":"56c8fa2e67b440d9","fromNode":"8107576bae8cadea","fromSide":"bottom","toNode":"039498df54928f47","toSide":"bottom","label":"光度计状态、读数"},
+		{"id":"5bf1e6b9038cc31f","fromNode":"99391289c28c7710","fromSide":"bottom","toNode":"039498df54928f47","toSide":"bottom"},
+		{"id":"6968fb3756695a38","fromNode":"99391289c28c7710","fromSide":"right","toNode":"0a4af23ea31a9adf","toSide":"bottom","label":"校准过程"},
+		{"id":"8c0c7cc369357b6e","fromNode":"82dd922b41ec65ba","fromSide":"bottom","toNode":"38a17722ae042726","toSide":"top"}
+	]
+}

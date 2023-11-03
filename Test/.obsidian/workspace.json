@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "206e54f9678b2e47",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2a2689711dba457",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c6edd057dc01da9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Heygears Work.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "876af14556b812fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "fdbd4f9ef767c70f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66f7da01aa9ed92a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bb80f8a18a52b5ef",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "b47d7391e5a58e3e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "ce782f04f68325cc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sftp",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "35bc0d6b2b100b67",
+    "type": "split",
+    "children": [
+      {
+        "id": "a516206e9e8dc3e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f931d8bdaeb989ae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Heygears Work.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e10941c35481cb04",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Heygears Work.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bdcb71d7eb4013ce",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1b23db2f4a0c845d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Heygears Work.md"
+              }
+            }
+          },
+          {
+            "id": "a82d456aa0438164",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "6c6edd057dc01da9",
+  "lastOpenFiles": [
+    "Project/未命名.canvas",
+    "Program/C++/prograss.md",
+    "Project/plugin.canvas",
+    "Project/Reflex/Work.md",
+    "Project/Reflex/projector.canvas",
+    "Project/Reflex/projctl.canvas",
+    "Project/Reflex/framework.canvas",
+    "DesignPatterns.md",
+    "OpenCV/imgproc/Structural Analysis and Shape Descriptors.md",
+    "OpenCV/imgproc/Image Filtering.md",
+    "OpenCV/imgproc/Planar Subdivision.md",
+    "OpenCV/imgproc/Miscellaeous Image Transformations.md",
+    "OpenCV/imgproc/Histograms.md",
+    "OpenCV/imgproc/Geometric Image Transformations.md",
+    "OpenCV/imgproc/Drawing Functions.md",
+    "OpenCV/imgproc/ColorMaps in OpenCV.md",
+    "OpenCV/imgproc/Color Space conversins.md",
+    "OpenCV/OpenCV.canvas",
+    "OpenCV/Object Detection.md",
+    "OpenCV/Motion Analysis and Object Tracking.md",
+    "OpenCV/Image Segmentation.md",
+    "OpenCV/Feature Detection.md",
+    "Plugin/global.md",
+    "Plugin",
+    "OpenCV/未命名.md",
+    "Project/Reflex/未命名.canvas",
+    "Project/quickCalib/未命名.canvas",
+    "Program/QT.md",
+    "Program/Python.md",
+    "Program/PCL.md",
+    "Program/OSG.md",
+    "Program/NPP.md",
+    "Program/NeRF.md",
+    "Program/Linux.md",
+    "Other/C++代码风格及注释规范.pdf",
+    "Other/Pasted image 20230901174750.png",
+    "Other/Pasted image 20230927110859.png",
+    "Other/Untitled.png",
+    "Project/Reflex/autoCalib.canvas",
+    "Project/Reflex/未命名 1.canvas",
+    "Project/quickCalib",
+    "Project/OCR",
+    "Program/C++",
+    "Program",
+    "Project",
+    "OpenCV/Core",
+    "1.py",
+    "OpenCV/imgproc",
+    "自动校准功能.canvas"
+  ]
+}

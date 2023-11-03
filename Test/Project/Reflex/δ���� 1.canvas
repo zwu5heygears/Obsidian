@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"eb3854cd6ca9fedd","x":-86,"y":-12,"width":250,"height":60,"type":"text","text":"a47_gloabl.h\ndll导出"},
+		{"id":"5130a5cca0e0c265","x":-85,"y":107,"width":250,"height":60,"type":"text","text":"a47.h\n光机接口"},
+		{"id":"a19e25c44bc83248","x":-420,"y":-12,"width":250,"height":60,"type":"text","text":"a47_define.h\n指令结构"},
+		{"id":"e29b098f5539bd19","x":-420,"y":110,"width":250,"height":60,"type":"text","text":"a47_command.h\n具体指令定义"},
+		{"id":"9665c6316004e759","x":-417,"y":239,"width":250,"height":60,"type":"text","text":"cprotocol.h\n发送、接受指令"},
+		{"id":"b2346335917be050","x":-739,"y":-13,"width":250,"height":60,"type":"text","text":"cserial.h\n串口通信"},
+		{"id":"3eec5c21be2e11b6","x":-968,"y":376,"width":250,"height":60,"type":"text","text":"projector_impl.h\n开关串口、发送指令"},
+		{"id":"74e4491d73cfb9e1","x":-997,"y":520,"width":308,"height":65,"type":"text","text":"projector_inferface.h\n光机开关、电流设置"}
+	],
+	"edges":[
+		{"id":"5f63e106a1bf5528","fromNode":"eb3854cd6ca9fedd","fromSide":"bottom","toNode":"5130a5cca0e0c265","toSide":"top"},
+		{"id":"e6223b969012e29b","fromNode":"a19e25c44bc83248","fromSide":"bottom","toNode":"e29b098f5539bd19","toSide":"top"},
+		{"id":"f4abbd922d8299f7","fromNode":"e29b098f5539bd19","fromSide":"bottom","toNode":"9665c6316004e759","toSide":"top"},
+		{"id":"ff2502c170c60011","fromNode":"e29b098f5539bd19","fromSide":"left","toNode":"3eec5c21be2e11b6","toSide":"right"},
+		{"id":"3035a6e85c4e6928","fromNode":"a19e25c44bc83248","fromSide":"left","toNode":"3eec5c21be2e11b6","toSide":"right"},
+		{"id":"849f389677040c56","fromNode":"b2346335917be050","fromSide":"bottom","toNode":"3eec5c21be2e11b6","toSide":"right"},
+		{"id":"3169ce0df8f0f01c","fromNode":"9665c6316004e759","fromSide":"left","toNode":"3eec5c21be2e11b6","toSide":"right"},
+		{"id":"1feb4af7ce3132fa","fromNode":"3eec5c21be2e11b6","fromSide":"bottom","toNode":"74e4491d73cfb9e1","toSide":"top"}
+	]
+}
